@@ -18,6 +18,6 @@ jobs:
     steps:
      - name: Add Numbers
        id: sum
-       run: echo"::set-output name=sum::$((${{inputs.number1}} + ${{inputs.number2}}))"
+       run: echo "::set-output name=sum::$((${{inputs.number1}} + ${{inputs.number2}}))"
      - name: Display Numbers
        run: echo "The Sum of ${{inputs.number1}} and ${{inputs.number2}} is ${{steps.sum.outputs.sum}}
