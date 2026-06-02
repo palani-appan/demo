@@ -6,7 +6,7 @@ env:
  cloud: google-cloud
 jobs:
    greeting_job:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     env:
      Greeting: Hello
     steps:
