@@ -4,7 +4,7 @@ on:
 
 env:
  cloud: google-cloud
-Jobs:
+jobs:
    greeting_job:
     runs_on: ubuntu-latest
     env:
