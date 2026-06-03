@@ -29,8 +29,8 @@ jobs:
         uses: hashicorp/setup-terraform@v3
 
       - name: 'Authenticate to GCP'
-         uses: 'google-github-actions/auth@v2'
-         with:
+        uses: 'google-github-actions/auth@v2'
+        with:
            credentials_json: ${{ secrets.GCP_SA_KEY }} # or workload identity config
            scopes: 'https://googleapis.com'
         
